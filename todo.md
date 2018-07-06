@@ -1,25 +1,28 @@
 # TODO
 
-- [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
-
+- from books (code complete, clean code, implementation patterns, ddd, analysis patterns, design patterns)
 - checklist project wide
-
 - checklist feature wide
-
 - process
-
-- principles (ex: kiss)
-
+- principles
+  - kiss
+  - [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+  - composition over inheritance
+  - big ball of mud
+  - no abstraction is better than bad abstraction
+  - guard code aganst future changes
+  - refactor boundaries
+  - low coupling high coesion
+  - information locality
+  - open close
+  - solid
+  - twelve factor apps
 - checklist commit wide
-
 - about collaboration
-
 - about development process
-
 - automated assist tools
-
 - version control (git)
   - about branching
+  - about commit
   - git best practices
-
 - integrate with other tools, ides, precommit-hooks and so
