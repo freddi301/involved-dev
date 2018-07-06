@@ -17,6 +17,8 @@
   - open close
   - solid
   - twelve factor apps
+  - DRY
+  - If it ain’t broke, don’t fix it
 - checklist commit wide
 - about collaboration
 - about development process
