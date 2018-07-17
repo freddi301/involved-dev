@@ -19,6 +19,9 @@
   - twelve factor apps
   - DRY
   - If it ain’t broke, don’t fix it
+- quotes
+  - any problem can be solved with a level of indirection, except too many levels of indirection
+  - hard things are naming and cache invalidation
 - checklist commit wide
 - about collaboration
 - about development process
