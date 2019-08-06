@@ -71,10 +71,64 @@
   - named parameters
   - callback
   - facade
-  - query language (rest, graphql)
+  - query language (rest, graphql, linq)
   - remote facade (must not be fine grained)
   - final tagless
-  - 
+  - builder
+  - lazy
+  - object pool
+  - prototype
+  - RAII (resource acquisition is initialization)
+  - lifecycles
+  - adapter
+  - bridge
+  - composite
+  - structural sharing
+  - marker/phantom type
+  - module/ modeule pattern
+  - special case object (zero or default)
+  - iterator
+  - memento
+  - serialization
+  - strategy
+  - visitor
+  - batch
+  - template
+  - dsl
+  - mv(h)c(sr) (mode-view-controller-service-repository)
+  - value object
+  - entity
+  - lazy loading
+  - sum of prioducts (aka haskell data type)
+  - composite
+  - cache LRU/TTL/Weak
+  - garbage collection
+  - set
+  - map/flatMap/compose/lift/identity/group/sort/
+  - transaction
+  - transaction script
+  - pure functions
+  - table module
+  - domain model
+  - service layer
+  - table data gateway
+  - row data gateway
+  - active record
+  - data mapper
+  - dto
+  - dao
+  - unit of work
+  - identity map
+  - metadata mapping
+  - query object
+  - pessimistic lock
+  - optimistic lock
+  - crdt
+  - layer supertype
+  - socket
+  - session
+  - token
+  - layer supertype
 - data structures
   - monad, io, state, free
   - comonad
@@ -92,12 +146,17 @@
   - worst case data structures
   - ammortized data structures
   - applicative
-  - 
+  - catamorphism
+  - anamorphism
+  - merkle tree
+  - dag
+  - graph
 - refactoring principles
   - booleans should be enums
   - one function/variable per functionality, one function must do at most one thing, but can delegate n operations
   - good naming, name must capture sinthetically what function does, if it containt and/or/with/without that means it does more than one thing
   - factor out flags
+  - naming: pronunceable, searchable, ubiquitous, unambigous
   - use callbacks as parameters when uncertain for use
   - delete commented/unused code
   - structure code that is friendly for IDE and tools and static analisis
@@ -109,6 +168,8 @@
   - look at code coverage (100% coverage doesn't mean every result is tested)
   - use automatic formatting tools (tweak for better diffs)
   - write code that is easy to delete
+  - write comments only if code can't expplain itself for performance reasons
+  - wrap collections
 - quotes
   - any problem can be solved with a level of indirection, except too many levels of indirection
   - hard things are naming and cache invalidation
