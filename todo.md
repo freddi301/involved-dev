@@ -18,7 +18,97 @@
   - solid
   - twelve factor apps
   - DRY
+  - WET
+  - SRP
+  - open closed
+  - AHA (avaoid hasty abstractions)
+  - worse is better
   - If it ain’t broke, don’t fix it
+  - dependency inversion
+  - LSP (liskov)
+  - ISP (interface segregation)
+  - same abstraction level per method
+  - avoid premature optimization
+  - no clever code
+- patterns
+  - singleton
+  - decorator
+  - observer
+  - chain of responsability
+  - party
+  - mux-demux
+  - piggyback
+  - middleware
+  - specification
+  - predicate
+  - command
+  - recursion schemes
+  - lenses
+  - coroutines
+  - eventloop
+  - multi-threading
+  - promise/future
+  - observable
+  - stream
+  - pattern matching
+  - interpreter
+  - effects
+  - cps
+  - actors
+  - denpendency injection
+  - delegate
+  - mixin
+  - proxy
+  - mediator
+  - factory
+  - ui component
+  - thunk
+  - clojure
+  - explicit clojure
+  - feature flag
+  - template method
+  - currying
+  - named parameters
+  - callback
+  - facade
+  - query language (rest, graphql)
+  - remote facade (must not be fine grained)
+  - final tagless
+  - 
+- data structures
+  - monad, io, state, free
+  - comonad
+  - trasversable
+  - list, linked, double-linked, array-list
+  - queue
+  - heap
+  - functor
+  - monoid
+  - map, hash map
+  - trie
+  - tree, binary tree, multitree, prefix tree
+  - immutable data structures
+  - realtime data structures
+  - worst case data structures
+  - ammortized data structures
+  - applicative
+  - 
+- refactoring principles
+  - booleans should be enums
+  - one function/variable per functionality, one function must do at most one thing, but can delegate n operations
+  - good naming, name must capture sinthetically what function does, if it containt and/or/with/without that means it does more than one thing
+  - factor out flags
+  - use callbacks as parameters when uncertain for use
+  - delete commented/unused code
+  - structure code that is friendly for IDE and tools and static analisis
+  - use debugger efficiently
+  - write unit tests for business logic
+  - write integration tests
+  - do not test third party code
+  - use versioning tools
+  - look at code coverage (100% coverage doesn't mean every result is tested)
+  - use automatic formatting tools (tweak for better diffs)
+  - write code that is easy to delete
 - quotes
   - any problem can be solved with a level of indirection, except too many levels of indirection
   - hard things are naming and cache invalidation
