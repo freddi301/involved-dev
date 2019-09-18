@@ -30,6 +30,9 @@
   - same abstraction level per method
   - avoid premature optimization
   - no clever code
+  - code colocality
+  - code readability
+  - code navigability
 - patterns
   - singleton
   - decorator
