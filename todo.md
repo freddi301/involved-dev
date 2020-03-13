@@ -185,3 +185,7 @@
   - about commit
   - git best practices
 - integrate with other tools, ides, precommit-hooks and so
+- react development workflow
+- divide and conquer with pseudocode
+- abstract over constants
+- progressive refactor with tools
