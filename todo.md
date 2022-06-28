@@ -13,7 +13,6 @@
   - guard code aganst future changes
   - refactor boundaries
   - low coupling high coesion
-  - information locality
   - open close
   - solid
   - twelve factor apps
@@ -30,7 +29,7 @@
   - same abstraction level per method
   - avoid premature optimization
   - no clever code
-  - code colocality
+  - code colocality (write code where it is used, in the same file, inline same level code, having too many indirections like files and functions gets hard to read and delete)
   - code readability
   - code navigability
 - patterns
