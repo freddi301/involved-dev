@@ -1,0 +1,67 @@
+# Workflow
+
+- **trasaction script** (ref: PpEAA) in pseudo code
+- **domain** (ref: DDD) plain objects and methods, encodes state
+  - **entity** (ref: DDD) pair of id and state, represent mutable entities, both value objects
+  - **value object** (ref: DDD) everything else
+- **CQRS** (ref: MISSING)
+  - **commands** (mofies state, future results of queries)
+  - **queries** (does not modify state, has params and return value)
+- **service** (ref: DDD) encodes actions over domain state
+- **repository** (ref: PpEAA) encodes storage (ref: DDD)
+- **strategy** (ref: DDD) selects different implementation for same task
+- **composite** (ref: DDD) ecodes trees and graphs
+- **bounded context** & **shared kernel** (ref: DDD) separate areas of project into indipendent contexts, use few data types for interfacing between them
+- **SRP** (Single Responsability Principle) (ref: MISSING)
+- **local interface** (ref: PpEAA) fine grained, for same thread operations
+- **remote interface** (ref: PpEAA) coarse grained, for cross-thread operations
+- **DTO** (Data Transfer Object) (ref: MISSING) plain object suited for serialization over wire
+- **serialization** & **deserialization** (ref: MISSING) pair of function to transform DTO to wire formats
+- **layer** (ref: MISSING) every layer can comunicate only with upper and lower layer
+  - principal layers (ref: PpEAA)
+    - presentation
+    - domain
+    - data source
+- **encapsulation** & **information hiding** (ref: MISSING) do not reveal internal details
+- **top-down** & **bottom-up** (ref: MISSING) alternate two approaches based on intuition
+- **TDD** (Test Driven Development) (ref: MISSING)
+  - add methods to interface -> test -> implementation
+  - respect three laws of TDD
+- **same level of abstraction** (ref: MISSING) in functions
+- **assertion** (ref: MISSING) development time validation
+- **validation** (ref: MISSING) a method that validates (ex: DTO, value object, parameters, state)
+  - shape (ref: F) validates things that type system does not model (ex: string length or format, numeric range)
+  - isolated (ref: F) validates if the object is valid not considering the context where it will live (ex: recipient is not same as sender)
+  - contextual (ref: F) validates if the object is valid in the context (ex: deleting already deleted resource)
+- **proxy** (ref: MISSING) add funcionality without altering interface (ex: add validation, remote procedure call)
+- **trust boundary** (ref: F) trusted/untrusted objects or interfaces that comes from user input or remote systems must be validated before use
+- **criteria** (ref: MISSING) a function that returns a boolean if a condition is satisfied
+- **queue** (ref: MISSING) use for delaying actions or throughtput limit
+- **party** (ref: MISSING) when partecipatns to an action can be of diverse type, create an enum (ex: { author: AuthorParty }; type AuthorParty = {type: "bot", id: string } | { type: "user", id: string })
+- **memoization** (ref: MISSING) save expensive computation results
+- **LSP** (Liskov Substitution Principle) (ref: MISSING) always create an interface and then the implementation (even if there will be just one)
+- **data mapper** (ref: MISSING) function that maps domain object to DAO
+- **DAO** (Data Access Object) (ref: MISSING) object for accessing storage
+- **unit of work** (ref: PpEAA) tracks state of interaction, used resources, caches, cleans up
+- **facade** (ref: MISSING) create an interface to simplify common operations over a subject
+- **observer** (ref: GoF)
+- **idempotent operation** (ref: MISSING)
+- **optimistic lock** (ref: PpEAA)
+- **reducer** & **scanner** (ref: MISSING) for state changes
+- **goal oriented** (ref: F) define goals and their state, work towards
+- **cursor pagination** (ref: MISSING) for remote collections
+- **singleton** (ref: GoF)
+- **RAII** (Resource Acquisition Is Initialization) (ref: MISSING)
+- **adapter** (ref: GoF)
+- **template method** (ref: GoF)
+
+# References
+
+- (ref: DDD) Domain Drive Design by Eric Evans
+- (ref: CC) Code Complete by Steve McConnel
+- (ref: ImplPat) Implementation Patterns by Kent Beck
+- (ref: ClCd) Clean Code by Robert C.Martin
+- (ref: AnaPat) Analysis Patterns by Martin Fowler
+- (ref: GoF) Gang of Four
+- (ref: PpEAA) Patterns of Enterprise Application Architecture by Martin Fowler
+- (ref: F) ad hoc concepts by the author Frederik Batuna

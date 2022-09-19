@@ -97,7 +97,7 @@
   - batch
   - template
   - dsl
-  - mv(h)c(sr) (mode-view-controller-service-repository)
+  - mv(h)c(sr) (model-view-controller-service-repository)
   - value object
   - entity
   - lazy loading
