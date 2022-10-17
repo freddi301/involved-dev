@@ -5,7 +5,7 @@
 - checklist feature wide
 - process
 - principles
-  - kiss
+  - kiss (Keep It Simple, Stupid) 
   - [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
   - composition over inheritance
   - big ball of mud
@@ -13,12 +13,11 @@
   - guard code aganst future changes
   - refactor boundaries
   - low coupling high coesion
-  - open close
-  - solid
+  - solid (Single responsibility principle,Open/closed principle,Liskov substitution principle,Interface segregation principle,Dependency inversion principle)
   - twelve factor apps
-  - DRY
-  - WET
-  - SRP
+  - DRY (Don't repeat yourself)
+  - WET (write everything twice)
+  - SRP (Single-responsibility principle)
   - open closed
   - AHA (avaoid hasty abstractions)
   - worse is better
