@@ -54,6 +54,8 @@
 - **RAII** (Resource Acquisition Is Initialization) (ref: MISSING)
 - **adapter** (ref: GoF)
 - **template method** (ref: GoF)
+- **pipes** (ref: POSA1)
+- **blackboard** (ref: POSA1)
 
 # References
 
@@ -64,4 +66,5 @@
 - (ref: AnaPat) Analysis Patterns by Martin Fowler
 - (ref: GoF) Gang of Four
 - (ref: PpEAA) Patterns of Enterprise Application Architecture by Martin Fowler
+- (ref: POSA) Pattern Orientend System Architecture
 - (ref: F) ad hoc concepts by the author Frederik Batuna
